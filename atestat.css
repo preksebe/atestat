@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}   body{
+    display: table;
+    width: 100%;
+    height: 100%;
+   }
+   
+   
+   .menu {
+    background-color: rgba(9, 75, 161, 0.685);
+    color: silver;
+    min-width: 75px;
+    height: 100%;
+   }
+   
+   .in-line {
+    display: table-cell;
+   }
+   
+   .main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(58, 48, 48);
+   }
+   
+   .title {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Comic Sans';
+    color: white;
+    width: 45px;
+    height: 45px;
+    background-image: "images.png";
+    background-size: 45px;
+}
+   input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin-top: 20px;
+    background-color: rgba(185, 171, 171, 0.479);
+    margin-left: 10px; 
+    color: black;
+    width: 200px;
+    background-size: 25px;
+}
+.meniu{
+    width: 50px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+.meniu:hover{
+    width: 300px;
+}

@@ -27,7 +27,7 @@ window.onload = function () {
 
     // Create a tab stave of width 400 at position 10, 40 on the canvas.
     var stave = new VF.TabStave(10, 40, 1000);
-    var stave2 = new VF.TabStave(20, 200, 1000);
+    var stave2 = new VF.TabStave(10, 200, 1000);
     stave.addClef("tab").setContext(context).draw();
     stave2.addClef("tab").setContext(context).draw();
 

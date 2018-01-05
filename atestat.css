@@ -1,39 +1,61 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}   body{
+}
+
+body {
     display: table;
     width: 100%;
     height: 100%;
-   }
-   
-   
-   .menu {
+}
+
+a {
+    text-decoration: none;
+}
+.logo{
+    width:120px;
+    height: 110px;
+    margin: 10px;
+}
+
+.menu {
     background-color: #006fc9;
     color: white;
-    min-width: 200px;
+    min-width: 150px;
     min-height: 100vh;
     height: 100vh;
-   }
-   
-   .in-line {
+}
+
+.in-line {
     display: table-cell;
     vertical-align: top;
-   }
-   #boo{
-       text-align: center;
-   }
-   .song{
-       text-align: center;
-       font-size: 30px;
+}
+
+#boo {
+    text-align: center;
+}
+
+.song {
+    text-align: center;
+    font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-   }
-   .mainn {
+}
+
+.mainn {
     width: 100%;
     min-height: 100%;
-    height: 100%;}
-   
-   .title {
+    height: 100%;
+}
+
+.font {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    padding-top: 150px;
+    font-size: 25px;
+    margin: 25px;
+}
+
+.title {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -44,18 +66,18 @@
     background-image: "images.bmp";
     background-size: 45px;
 }
-   input {
+
+input {
     border: 0;
     outline: 0;
     background: transparent;
     margin-top: 20px;
     background-color: rgba(185, 171, 171, 0.479);
-    margin-left: 10px; 
+    margin-left: 10px;
     color: black;
     width: 200px;
     background-size: 25px;
 }
-
 
 body {
     font-family: "Lato", sans-serif;
@@ -78,10 +100,10 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: white   ;
+    color: white;
     display: block;
     transition: 0.3s;
-    width:200px;
+    width: 200px;
 }
 
 .sidenav a:hover {
@@ -102,32 +124,29 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
-input[type=text] {
-                width: 120px;
-                box-sizing: border-box;
-                border: 2px solid #ccc;
-                border-radius: 4px;
-                font-size: 16px;
-                background-color: white;
-                background-image: url('searchicon.png');
-                background-position: 5px 5px; 
-                background-repeat: no-repeat;
-                padding: 12px 20px 12px 35px;
-                -webkit-transition: width 0.4s ease-in-out;
-                transition: width 0.4s ease-in-out;
-            }
-            
-            input[type=text]:focus {
-                width: 300px;
-            }
-.tab{
+
+.tab {
     margin-left: 200px;
     margin-top: 100px;
 }
-.player{
-    width:80%;
-margin: 20px 10% 0 10%;
+
+.player {
+    width: 80%;
+    margin: 20px 10% 0 10%;
+}
+.bot{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:15px;
+    left:0;
+    background-color:black;
+    color:white;
 }

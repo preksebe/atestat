@@ -5,7 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="atestat.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src=".\node_modules\vexflow\releases\vexflow-min.js"></script>
-	<script src="atestat.js"></script>
+	<script src="songCollection.js"></script>
+	<script src="songs.js"></script>
 
 	<title>
 		Tabulaturi
@@ -19,11 +20,16 @@
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<a href="#">About</a>
 		</div>
+
 		<div>
-			<img src="guitar.bmp" class="logo" />
+			<img src="guitar.bmp" class="logo"/> 
 		</div>
 		<div id="main">
 			<a href="atestat.html" style="font-size:30px;cursor:pointer;color:white"> Home</a>
+		</div>
+
+		<div id="main">
+			<span style="font-size:30px;cursor:pointer" onclick="openNavv()"> Songs</span>
 		</div>
 		<div id="mySidenavv" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNavv()">&times;</a>
@@ -31,20 +37,15 @@
 			<a href="songs.html?songId=happybday">Happy birthday to you</a>
 			<a href="songs.html?songId=ode">Ode of joy</a>
 		</div>
-
-		<div id="main">
-			<span style="font-size:30px;cursor:pointer" onclick="openNavv()"> Songs</span>
-		</div>
-
-
-
-
 	</div>
 	<div class="in-line mainn">
-		<div class="font">Bun venit pe Tabulaturi.ro,un site destinat sa ii ajute pe oameni sa invete cantece de baza la chitara prin intermediul
-			tabulaturilor.</div>
-		<div class="font">Folositi meniul din partea stanga a ecranului pentru a alege cantecul pe care doriti sa il vizionati</ div>
-		</div>
+		<div class="song" id="songTitle"></div>
+		<audio id="songPlayer" controls class="player">
+			<source id="audioSource" src="" type="audio/mpeg">
+		</audio>
+		<div id="boo"></div>
+	</div>
+
 	<div class="bot">Antal Vladut Inc.©</div>
 </body>
 
